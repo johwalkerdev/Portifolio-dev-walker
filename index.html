@@ -3,92 +3,91 @@
 
 <head>
 
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width,  initial-scale=1.0">
-   <title>Dev/Walker</title>
-   <link rel="stylesheet" href="./styles.css">
-   <link href="https://fonts.googleapis.com/css2?family=JetBrains
-     +Mono:wght@600;700&family=Open+Mono:wght@600;700&family=Poppins:wght@300;400;600&
-     display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/
-     6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev/Walker | Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css" />
 
 </head>
 
 <body>
 
-   <header class="menu">
+    <header class="menu">
+        <div class="header-left">
+            <h1 class="logo">&lt; WALKER.Dev/&gt;</h1>
+        </div>
 
-      <div class="header-left">
-         <h1 class="logo"> &lt;Walker.Dev/&gt;</h1>
-      </div>
+        <div class="header-center social-links">
 
-      <div class="header-center">
-         <a href="mailto:walkerjf10@gmail.com" aria-label="email">
-            <img src="./assets/icone-email.png" alt="email" class="icon">
-         </a>
+            <a href="mailto:seuemail@gmail.com" aria-label="Enviar Email">
+                <img src="./assets/icone-email.png" alt="Ícone de Email" class="icon">
+            </a>
+            
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <img src="./assets/icone-linkdil.png" alt="Ícone do LinkedIn" class="icon">
+            </a>
+            
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <img src="./assets/github.png" alt="Ícone do GitHub" class="icon">
+            </a>
 
-         <a href="https://www.linkedin.com/in/johnny-walker31dev/" target="_blank" aria-label="linkedin">
-            <img src="./assets/icone-linkdil.png" alt="linkedin" class="icon">
-         </a>
+        </div>
+        
+        <nav class="nav header-right">
+            <a href="#inicio">Início</a>
+            <a href="#projetos">Projetos</a> 
+            <a href="#habilidades">Habilidades</a>
+            <a href="#sobre">Sobre</a>
+        </nav>
 
-         <a href="https://github.com/johwalkerdev" target="_blank" aria-label="github">
-            <img src="./assets/github.png" alt="github" class="icon">
-         </a>
+    </header>
 
-      </div>
+    <main class="caixa-principal" id="inicio">
 
-      <nav class="navheader-right">
-         <a href="#">Início</a>
-         <a href="#">Projetos</a>
-         <a href="#">Habilidades</a>
-         <a href="#">Sobre</a></a>
-      </nav>
+        <section class="hero-content">
+            <div class="textos">
 
-   </header>
+                <h2> Olá, meu nome é Johnny Walker - Desenvolvedor <br> <span class="destaque">Front-End</span> !</h2>
+                <p>Transformo ideias em interfaces modernas, responsivas e funcionais.
+                    Apaixonado por tecnologia, design e desenvolvimento web.</p>
 
-   <div class="caixa-principal">
-      <div class="textos">
-         <h2>Olá, meu nome e Johnny Walker - Ddesenvolvedor <br>
-            <span class="destaque">Front-End</span>
-         </h2>
-         <p>Tranformo ideias em interfaces modernas, responsivas e funcionais. <br>
-            Apaixonado por tecnologia, design e desenvolvimento web.</p>
+                <div class="botoes">
+                    <a href="#contato" class="btn btn-contato">Fale comigo</a>
+                    <a href="./curriculo.pdf" target="_blank" class="btn btn-curriculo" rel="noopener noreferrer">Baixar currículo</a>
+                </div>
 
-         <div class="botoes">
-            <a href=" tel:5531983429640" class="btn btn-contato">FALE COMIGO</a>
+            </div>
 
-            <a href="curriculo" target="_blank" class="btn btn-curriculo">Baixar Curriculo</a>
-         </div>
+            <div class="orbit-container" id="habilidades">
 
-      </div>
+                <div class="avatar-center">
+                    <img src="./assets/avatar-principal.png" alt="Avatar Johnny Walker" class="avatar01">
+                </div>
 
-      <div class="orbit-container">
-         <div class="avatar-center">
-            <img src="./assets/avatar-principal.png" alt="avatar" class="avatar-01">
-         </div>
+                <ul class="skills-list">
+                    <li class="skill-icon" data-icon="1" data-radius-multiplier="0.5" data-speed="0.005"><i class="fab fa-html5"></i></li>
+                    <li class="skill-icon" data-icon="2" data-radius-multiplier="0.7" data-speed="0.004"><i class="fab fa-css3-alt"></i></li>
+                    <li class="skill-icon" data-icon="3" data-radius-multiplier="0.6" data-speed="0.005"><i class="fab fa-js-square"></i></li>
+                    <li class="skill-icon" data-icon="4" data-radius-multiplier="0.9" data-speed="0.004"><i class="fab fa-react"></i></li>
+                    <li class="skill-icon" data-icon="5" data-radius-multiplier="0.8" data-speed="0.005"><i class="fab fa-node-js"></i></li>
+                    <li class="skill-icon" data-icon="6" data-radius-multiplier="0.9" data-speed="0.004"><i class="fab fa-github-alt"></i></li>
+                </ul>
+            </div>
+        </section>
+        
+        </main>
 
-         <ul class="skills-list">
+    <section id="projetos" style="min-height: 10px;"></section> <footer id="contato">
+        </footer>
 
-            <li class="skill-icon" data-icon="1" data-radius-multiplier="0.7" data-speed="0.005"><i
-                  class="fab fa-html5"></i></li>
-            <li class="skill-icon" data-icon="2" data-radius-multiplier="0.5" data-speed="0.007"><i
-                  class="fab fa-css3-alt"></i></li>
-            <li class="skill-icon" data-icon="3" data-radius-multiplier="0.9" data-speed="0.007"><i
-                  class="fab fa-js-square"></i></li>
-            <li class="skill-icon" data-icon="4" data-radius-multiplier="0.9" data-speed="0.004"><i
-                  class="fab fa-react"></i></li>
-            <li class="skill-icon" data-icon="5" data-radius-multiplier="0.8" data-speed="0.007"><i
-                  class="fab fa-node-js"></i></li>
-            <li class="skill-icon" data-icon="6" data-radius-multiplier="1.0" data-speed="0.004"><i
-                  class="fab fa-github-alt"></i></li>
-         </ul>
-      </div>
+    <script src="./script.js"></script>
 
-   </div>
-
-
-<script src="./script.js"></script>
 </body>
 
 </html>
